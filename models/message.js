@@ -6,7 +6,7 @@ const messageSchema = new mongoose.Schema({
         trim: true,
         required: true,
         minlength: 2
-    },
+    },                   
     email: {
         type: String,
         trim: true,
